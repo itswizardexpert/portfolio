@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <div id="jumbotron">
+    <div class="header">
+      <h1 class="header_1">I am <span>Kevin McHugh</span></h1>
+      <h2 class="header_2">Software Delvoper and Photographer</h2>
+    </div>
+  </div>  
+    <ul id="navbar">
+        <a href="#jumbotron">Home</a>
+        <a href="#portfolio"> My Work</a>
+        <a href="#skills"> My Skills</a>
+        <a href="#About Me">About</a>
+        <a href="#Contact Me">Contact</a>
+      </ul>
+      
+      <div id="portfolio">
+        <h1>My Work</h1>
+        <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+  
+    <div class="mySlides">
+        <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050214867254120478/DSC0355.NEF.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050223285922713660/IMGP3145.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src= "https://cdn.discordapp.com/attachments/928388003867541534/1050390499086827601/IMGP3024.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050411583924342854/IMGP3028.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050411584972914748/IMGP3015.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050208596341833760/DSC0350.jpg" style="width:100%">
+    </div>
+  
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+    </div>
+
+</div>
+<div class="row">
+    <div class="column">
+      <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050214867254120478/DSC0355.NEF.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050223285922713660/IMGP3145.JPG"  style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050390499086827601/IMGP3024.JPG"  style="width:100%" onclick="myFunction(this);">
+      </div>
+    <div class="column">
+      <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050411583924342854/IMGP3028.JPG"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050411584972914748/IMGP3015.JPG" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="https://cdn.discordapp.com/attachments/928388003867541534/1050208596341833760/DSC0350.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+</div>
+<div class="container_1">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+  <h1 class="Code"> Other coding work can be found on my GitHub: </h1> <a class="link" href="https://github.com/itswizardexpert">GitHub</a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div>
+    <h1 id="skills" class="My_Skills">My Skills</h1>
+    <ul class="My_Skills_2">
+      <li>Python</li>
+      <li>C#</li>
+      <li>Basics to HTML, CSS and JavaScript</li>
+      <li>Pixel Art</li>
+      <li>Photography</li>
+    </ul>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div>
+    <h1 id="About Me" class="About_Me">ABOUT ME</h1>
+    <p>Hi, I am Kevin McHugh, I am a Software Developer and a new Photographer. I always had a passion for photography when I was younger</p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div id="Contact Me" class="container_2">
+    <div style="text-align:center">
+      <h2>Contact Me</h2>
+      <p>Contact me or leave me a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.5706578931686!2d-80.78811143423874!3d41.03165956546401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8833fd0bd908bef3%3A0xaadd9ce6f82cdb62!2sMahoning%20County%20Career%20%26%20Technical%20Center!5e1!3m2!1sen!2sde!4v1670533783179!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+<div class="footer">
+    <p>© COPYRIGHT ALL RIGHTS RESERVED</p>
+</div>
+      <script src="slide.js"></script>
+</html>
